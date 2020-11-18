@@ -5,8 +5,8 @@ import './css/styles.css';
 import ShibeService from './shibe-service.js';
 
 function getElements(response) {
-  if (response) {
-    $('.showShibe').html(); // need to change?
+  if (response) { // response.STUFF based on API
+    $('.showShibe').html(`<img src="${response[0]}">`); // need to change?
   } else {
     $('.showErrors').text(`There was an error: ${response.message}`);
   }
