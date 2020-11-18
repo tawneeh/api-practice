@@ -3,7 +3,7 @@
 #### _API Practice For Epicodus_ 
 #### _Date Created 11.17.2020_
 
-#### By _**Tawnee Harris**_
+#### By _**Tawnee Harris and Jeff Chiu**_
 
 ## Description
 
@@ -30,7 +30,7 @@ This application has no known bugs.
 
 ## Support and contact details
 
-Please feel free to reach out to me anytime at <tawneeh@icloud.com>
+Please feel free to reach out to me anytime at <tawneeh@icloud.com> or Jeff at <jwchiu82@gmail.com>
 
 ## Technologies Used -- DOES THIS NEED TO BE UPDATED?
 
@@ -45,4 +45,4 @@ Please feel free to reach out to me anytime at <tawneeh@icloud.com>
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-Copyright (c) 2020 **_Tawnee Harris_**
+Copyright (c) 2020 **_Tawnee Harris and Jeff Chiu_**
