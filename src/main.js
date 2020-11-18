@@ -6,14 +6,18 @@ import ShibeService from './shibe-service.js';
 
 function getElements(response) {
   if (response) { // response.STUFF based on API
-    $('.showShibe').html(`<img src="${response[0]}">`); // need to change?
+    for (let i = 0; i<response.length; i++) {
+      $('.showShibe').append(`<img src="${response[i]}">`); 
+    }
   } else {
     $('.showErrors').text(`There was an error: ${response.message}`);
   }
 }
 
 $(document).ready(function() {
-  $('#getShibe').click(function() {
+  $('#getShibe').click(function(event) {
+    $('.showShibe').text('');
+    event.stopImmediatePropagation();
     ShibeService.getShibe()
       .then(function(response) {
         getElements(response);
